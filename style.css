@@ -210,7 +210,7 @@ img {
 }
 
 /* -------------------------------------------------- */
-/*   ABOUT                                             */
+/*   OVER ONS                                             */
 /* -------------------------------------------------- */
 
 .split {
@@ -220,7 +220,7 @@ img {
   gap: 3rem;
 }
 
-.about-list {
+.overons-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -228,7 +228,7 @@ img {
   gap: 1rem;
 }
 
-.about-list li {
+.overons-list li {
   padding: 1rem 1.25rem;
   background: white;
   border-radius: var(--radius);
