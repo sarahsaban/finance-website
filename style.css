@@ -404,3 +404,66 @@ img {
   display: block;
 }
 
+/* --- HEADER OPTIMALISATIE --- */
+
+.site-header {
+  padding: 1.25rem 0;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo + tekst */
+.brand {
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
+.brand-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+}
+
+/* Navigatie */
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.site-nav a:hover {
+  opacity: 0.6;
+}
+
+/* Vlag-icoon */
+.flag {
+  height: 20px;
+  width: auto;
+  display: block;
+}
