@@ -57,8 +57,10 @@ img {
 }
 
 .brand {
+  font-size: 1.4rem;
+  font-weight: 700; /* maakt het dikgedrukt */
+  color: #0f172a;
   text-decoration: none;
-  color: inherit;
 }
 
 .brand-inner {
