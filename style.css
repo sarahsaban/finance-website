@@ -320,3 +320,22 @@ img {
     padding: 2rem 1.5rem;
   }
 }
+
+/* --- Branding (logo + tekst) --- */
+.brand-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* ruimte tussen logo en tekst */
+}
+
+.logo {
+  height: 40px; /* maak groter of kleiner */
+  width: auto;
+  display: block;
+}
+
+.brand-text {
+  font-size: 1.25rem; /* pas aan naar smaak */
+  font-weight: 600;
+  color: #0f172a; /* zelfde kleur als je header-tekst */
+}
